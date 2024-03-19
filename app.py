@@ -6,6 +6,8 @@ pd_cars = pd.read_csv('datasets/vehicles.csv')
 
 st.header('Análise de Veiculos')
 
+pd_cars.head()
+
 hist_button = st.button('Criar histograma')
 disp_button = st.button('Criar gráfico de disperção')
 
