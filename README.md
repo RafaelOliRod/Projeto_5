@@ -1,4 +1,6 @@
-# Projeto_5
+# Trade Car
+
+Projeto do sprint 5 do bootcamp da TripleTen.
 
 Link web para acesso ao projeto:
 
