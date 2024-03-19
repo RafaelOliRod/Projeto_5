@@ -3,10 +3,12 @@ import pandas as pd
 import plotly.express as px
 
 pd_cars = pd.read_csv('datasets/vehicles.csv')
+
+st.header('Análise de Veiculos')
+
 hist_button = st.button('Criar histograma')
 disp_button = st.button('Criar gráfico de disperção')
 
-st.header('Análise de Veiculos')
 
 if hist_button:  # se o botão for clicado
     # escrever uma mensagem
