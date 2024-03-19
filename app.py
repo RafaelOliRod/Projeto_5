@@ -19,7 +19,6 @@ df_cars['manufacturer'] = df_cars['model'].apply(extract_manufacturer)
 
 # Exibindo o novo DataFrame
 df_manufacturer = df_cars[['manufacturer']]
-print(df_manufacturer)
 
 # Contar a frequência de cada fabricante
 manufacturer_counts = df_manufacturer['manufacturer'].value_counts()
@@ -29,8 +28,16 @@ df_manufacturer_counts = pd.DataFrame(
     {'manufacturer': manufacturer_counts.index, 'count': manufacturer_counts.values})
 
 
-hist_button = st.button('Criar histograma')
-disp_button = st.button('Criar gráfico de disperção')
+# Dividir a tela em duas colunas
+col1, col2 = st.columns(2)
+
+# Adicionar botão de histograma à primeira coluna
+with col1:
+    hist_button = st.button('Criar histograma')
+
+# Adicionar botão de dispersão à segunda coluna
+with col2:
+    disp_button = st.button('Criar gráfico de disperção')
 
 if hist_button:  # se o botão for clicado
     # escrever uma mensagem
@@ -54,6 +61,9 @@ if disp_button:  # se o botão for clicado
     # exibir um gráfico Plotly interativo
     st.plotly_chart(fig, use_container_width=True)
 
+st.write("")
+st.write("")
+
 st.markdown('<h3>Condição do Veículo x Ano de Fabricação</h3>',
             unsafe_allow_html=True)
 # Remover linhas com valores ausentes
@@ -61,8 +71,17 @@ hist_data = df_cars[['condition', 'model_year']].dropna()
 fig = px.histogram(hist_data, x='model_year', color='condition')
 st.plotly_chart(fig)
 
-manufact_button = st.button('Gráfico por Fabricante')
-tp_button = st.button("Gráfico por Tipo de Veículo")
+
+# Dividir a tela em duas colunas
+col1, col2 = st.columns(2)
+
+# Adicionar botão de histograma à primeira coluna
+with col1:
+    manufact_button = st.button('Gráfico por Fabricante')
+
+# Adicionar botão de dispersão à segunda coluna
+with col2:
+    tp_button = st.button("Gráfico por Tipo de Veículo")
 
 if manufact_button:  # se o botão for clicado
     # Plotar gráficos de pizza
@@ -78,6 +97,9 @@ if tp_button:
     fig = px.pie(names=type_counts.index, values=type_counts.values,
                  title='Distribuição por Tipo de Veículo')
     st.plotly_chart(fig)
+
+st.write("")
+st.write("")
 
 st.markdown('<h3>Compare a distribição de preços entre os Fabricantes</h3>',
             unsafe_allow_html=True)
