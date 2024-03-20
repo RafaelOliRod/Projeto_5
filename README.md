@@ -18,7 +18,7 @@ In this sprint 5 project of the TripleTen bootcamp, a web presentation was creat
 
 * Use of VS Code;
 * Cloning and updating GitHub repositories via code and VS Code;
-* ploading and deploying the project on the web through Render.com;
+* Uploading and deploying the project on the web through Render.com;
 * Use of streamlit in Python;
 * Application of multi-select checkboxes for web presentation.
 
