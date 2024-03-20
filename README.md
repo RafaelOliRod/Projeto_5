@@ -13,6 +13,7 @@ Neste projeto do sprint 5 do bootcamp da TripleTen foi feita uma apresentação 
 ✔ Aplicação de caixas de seleção (multiselect) e check-box para apresentação web.
 
 
+
 🌐 Link web para acesso ao projeto:
 
 https://trade-car.onrender.com
@@ -33,6 +34,7 @@ In this sprint 5 project of the TripleTen bootcamp, a web presentation was creat
 ✔ Use of streamlit in Python;
 
 ✔ Application of multi-select checkboxes for web presentation.
+
 
 
 🌐 Web link to access the project:
