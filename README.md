@@ -16,9 +16,6 @@ https://trade-car.onrender.com
 ## English Version
 
 
-# 🚗 Trade Car
-
-
 In this sprint 5 project of the TripleTen bootcamp, a web presentation was created containing data from a dataframe related to the buying and selling of vehicles over a certain period. In addition to histograms and graphs already presented in previous projects, new skills and resources were applied, such as:
 
 
