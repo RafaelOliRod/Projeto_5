@@ -4,7 +4,7 @@ import plotly.express as px
 
 df_cars = pd.read_csv('datasets/vehicles.csv')
 
-st.header('Análise de Veiculos')
+st.header('TRADE CAR - Análise de Veiculos')
 
 st.write("Tabela de Vendas")
 st.write(df_cars)
