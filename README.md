@@ -2,11 +2,11 @@
 
 Neste projeto do sprint 5 do bootcamp da TripleTen foi feita uma apresentação web contendo dados de um dataframe relacionado a compra e venda de veículos em um determinado perìodo. Além de histogramas e gráficos já apresentados em projetos anteriores, foram aplicados novas habilidades e recursos, tais como:
 
-* Utilização de VS Code;
-* Clonagem e atualização de repositórios do GitHub via código e VS Code;
-* Subida e implantação do projeto na web através do Render.com;
-* Utilização de streamlit em Python;
-* Aplicação de caixas de seleção (multiselect) e check-box para apresentação web.
+✔ Utilização de VS Code;
+✔ Clonagem e atualização de repositórios do GitHub via código e VS Code;
+✔ Subida e implantação do projeto na web através do Render.com;
+✔ Utilização de streamlit em Python;
+✔ Aplicação de caixas de seleção (multiselect) e check-box para apresentação web.
 
 🌐 Link web para acesso ao projeto:
 
